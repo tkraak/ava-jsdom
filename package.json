@@ -1,0 +1,20 @@
+{
+  "ava": {
+    "verbose": "true"
+  },
+  "scripts": {
+    "test": "npm run lint && nyc ava",
+    "lint": "standard | snazzy"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.2.0",
+    "jsdom-simulant": "^1.1.2",
+    "nyc": "^11.0.3",
+    "simulant": "^0.2.2",
+    "sinon": "^3.3.0",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
+  }
+}

@@ -2,7 +2,7 @@ import test from 'ava'
 import { JSDOM } from 'jsdom'
 import simulant from 'jsdom-simulant'
 
-const dom = new JSDOM(`<!DOCTYPE html><p>Hello <a href="#">world</a></p>`)
+const dom = new JSDOM('<!DOCTYPE html><p>Hello <a href="#">world</a></p>')
 const window = dom.window
 const document = dom.window.document
 const $ = require('jquery')(window)

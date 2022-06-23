@@ -9,7 +9,7 @@
   "devDependencies": {
     "ava": "^2.4.0",
     "jquery": "^3.5.0",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "jsdom-simulant": "^1.1.2",
     "nyc": "^15.0.0",
     "simulant": "^0.2.2",
